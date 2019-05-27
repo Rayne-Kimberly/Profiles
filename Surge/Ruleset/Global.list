@@ -35,6 +35,18 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
+# > Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
 # > Line
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
@@ -243,6 +255,7 @@ DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,seatguru.com
 DOMAIN-SUFFIX,shadowsocks.org
+DOMAIN-SUFFIX,shopee.tw
 DOMAIN-SUFFIX,slideshare.net
 DOMAIN-SUFFIX,softfamous.com
 DOMAIN-SUFFIX,soundcloud.com
@@ -286,8 +299,11 @@ DOMAIN-SUFFIX,worldcat.org
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yesasia.com
 DOMAIN-SUFFIX,yes-news.com
 DOMAIN-SUFFIX,yomiuri.co.jp
@@ -332,6 +348,7 @@ DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,jcpenney.com
 DOMAIN-SUFFIX,jiehua.tv
 DOMAIN-SUFFIX,kknews.cc
+DOMAIN-SUFFIX,mailfence.com
 DOMAIN-SUFFIX,nationwide.com
 DOMAIN-SUFFIX,nbc.com
 DOMAIN-SUFFIX,nexon.com
@@ -354,14 +371,26 @@ USER-AGENT,Roam*
 
 # (The Most Popular Sites)
 # > Apple
-DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
-DOMAIN,beta.itunes.apple.com // TestFlight
-DOMAIN,books.itunes.apple.com // iBooks Store download
-DOMAIN,hls.itunes.apple.com // iTunes Store Moveis Trailers
-DOMAIN,itunes.apple.com // App Store Preview
-DOMAIN,api-glb-sea.smoot.apple.com // Spotlight
-DOMAIN,lookup-api.apple.com // Dictionary
-PROCESS-NAME,LookupViewService // Dictionary
+# >> Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re
+# >> TestFlight
+DOMAIN,beta.itunes.apple.com
+# >> iBooks Store download
+DOMAIN,books.itunes.apple.com
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com
+# >> App Store Preview
+DOMAIN,itunes.apple.com
+# >> Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com
+# >> Dictionary
+DOMAIN,lookup-api.apple.com
+PROCESS-NAME,LookupViewService
+# >> Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
 # > Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com
