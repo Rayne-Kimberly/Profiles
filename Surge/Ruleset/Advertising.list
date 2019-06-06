@@ -136,6 +136,7 @@ DOMAIN-SUFFIX,lenzmx.com
 DOMAIN-SUFFIX,lifestreet.com
 DOMAIN-SUFFIX,lifestreetmedia.com
 DOMAIN-SUFFIX,ligatus.com
+DOMAIN-SUFFIX,lkt75d.cn
 DOMAIN-SUFFIX,lnk0.com
 DOMAIN-SUFFIX,luomi.com
 DOMAIN-SUFFIX,madserving.com
@@ -386,6 +387,7 @@ DOMAIN,rich.kuwo.cn
 # > Kingsoft
 DOMAIN,ad-stat.ksosoft.com
 DOMAIN,img.auction-ads.wpscdn.cn
+DOMAIN,minfo.wps.cn
 # (L)
 # > Le
 DOMAIN-SUFFIX,webp2p.letv.com
@@ -407,7 +409,6 @@ DOMAIN,ad.api.moji.com
 DOMAIN,adlaunch.moji.com
 DOMAIN,ads.mojicdn.com
 DOMAIN,v1.log.moji.com
-DOMAIN,minfo.wps.cn
 # (N)
 # > NetEase
 DOMAIN,ad.bn.netease.com
